@@ -1,0 +1,24 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,d;
+    cout<<"Enter the Number of Rows: ";
+    cin>>a;
+    cout<<"Enter the Number of Columns: ";
+    cin>>b;
+    
+    for (c = 1; c <= a; c++)
+    {
+        for (d = 1; d <= b; d++)
+        {
+            cout << "* ";
+        }
+        cout<<endl;
+    }
+    _getch();
+    return 0;
+}
